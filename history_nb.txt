@@ -1,0 +1,213 @@
+mkdir git
+
+git config --list
+git config --status
+
+git init
+git add test-01.txt 
+git commit -m '01. version' test-01.txt 
+git commit -m 'version 01 - ' test-01.txt 
+
+git status test-01.txt 
+git add test-01.txt 
+git status test-01.txt 
+git commit -m 'version 2.0 - ' test-01.txt 
+git status test-01.txt 
+
+git remote
+
+ssh -V
+ssh-keygen -t ed25519 -C "thdampfwolke@gmail.com"
+cat id_ed25519.pub 
+
+ssh -T git@gitlab.com
+cat known_hosts 
+
+git remote add origin https://gitlab.com/thdampfwolke/my_first_project
+git status
+git list
+git --help
+git show
+git log
+git remote show
+git remote show origin 
+git --help
+
+git status
+git branch
+git branch status 
+git status brunch
+git branch status 
+git branch 
+git checkout master
+git status
+git add musikliste.txt 
+git commit -m "abc"
+git status
+git checkout musik
+ll
+vi musikliste.txt 
+git add musikliste.txt 
+git commit -m "branch: musik: 02"
+git status
+git checkout master
+git status
+git branch
+git merge musik
+ll
+cat musikliste.txt 
+git checkout musik 
+git status
+ll
+vi musikliste.txt 
+ll
+git add musikliste.txt 
+git commit -m "branch: master: musikliste.txt"
+git status
+cat musikliste.txt 
+git checkout musik 
+ll
+cat musikliste.txt 
+git checkout master
+git statua
+git status
+git log
+git log -2
+git log -3
+git log -p
+git log --stat
+git log --pretty
+git log --pretty -2
+git log --graph
+git log --graph --decorate --oneline
+
+git checkout -b spiele
+vi spiele.txt
+add spiele.txt 
+git add spiele.txt 
+git commit -m "branch: spiele - vi spiele.txt"
+
+git status
+git log --graph
+git log --graph --decorate --oneline
+git checkout master
+git log --graph --decorate --oneline
+git checkout spiele
+git log --graph --decorate --oneline
+git checkout master 
+exit
+ll
+cd c:
+cd Users/dargth/OneDrive/Dokumente/zzz__git/
+ll
+git clone https://github.com/thdampfwolke/thdampfwolke.github.io.git
+ll
+cd thdampfwolke.github.io/
+ll
+cat index.md 
+exit
+ll
+pw
+pwd
+ll
+ls
+cd Documents/
+ll
+cd data_nb_lenovo/
+ll
+ll
+exit
+ls
+pwd
+cd zz__git/
+ls -al
+cd test
+cd test_01/
+ll
+git status
+vi 01_file.txt 
+git status
+add 01_file.txt 
+git add 01_file.txt 
+git status
+git commit
+git status
+git remote
+git remote add proj_01 https://gitlab.com/thdampfwolke/test_01
+git remote
+git --help
+git push origin/master
+vi .gitignore
+ll
+ls -al
+ll
+git status
+git add --all
+cat .gitignore 
+
+git remote add proj_01 https://github.com/thdampfwolke/test_01.git
+git remote
+git push -u proj_01 master
+git push -u proj_01 master
+git status
+ll
+vi 03_file.txt
+ll
+vi 02_file.txt 
+git status
+git add --all
+git status
+git commit -m "commit"
+git status
+git push
+history
+ll
+
+
+# ----------------------------------------------------------------------------
+# sort
+
+cd zz__git/
+git --help
+git add --all
+git add 01_file.txt 
+git branch
+git branch status 
+git checkout -b spiele
+git checkout master
+git checkout musik
+git clone https://github.com/thdampfwolke/thdampfwolke.github.io.git
+git commit
+git commit -m "commit"
+git config --list
+git config --status
+git init
+git list
+git log
+git log --graph
+git log --graph --decorate --oneline
+git log --pretty
+git log --pretty -2
+git log --stat
+git log -2
+git log -3
+git log -p
+git merge musik
+git push
+git push -u proj_01 master
+git push origin/master
+git remote
+git remote add origin https://gitlab.com/thdampfwolke/my_first_project
+git remote add proj_01 https://github.com/thdampfwolke/test_01.git
+git remote add proj_01 https://gitlab.com/thdampfwolke/test_01
+git remote show
+git remote show origin 
+git show
+git status
+git status brunch
+git status test-01.txt 
+ssh -T git@gitlab.com
+ssh -V
+ssh-keygen -t ed25519 -C "thdampfwolke@gmail.com"
+vi .gitignore
+
